@@ -1,0 +1,19 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.App {
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  form {
+    display:flex;
+    gap: 20px;
+    margin-top: 20px;
+    select {
+      height: 40px;
+    }
+  }
+  // justify-content: space-evenly;
+}
+
